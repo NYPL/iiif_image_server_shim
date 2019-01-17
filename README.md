@@ -15,9 +15,18 @@ the IIIF image server's response._
 
 _TODO:...._
 
-## Running Locally
+## Building & Running Locally
 
-_TODO:...._
+### Building
+
+1.  `docker-compose build`
+_fin_
+
+### Running
+
+1.  `docker-compose up`
+2.  Go to http://localhost:8000
+_fin_
 
 ## Git Workflow & Deployment
 
