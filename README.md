@@ -1,5 +1,7 @@
 # IIIF Image Server Shim
 
+*THIS IS SOMEWHERE BETWEEN A PROOF-OF-CONCEPT AND A WORK IN PROGRESS.*
+
 images.nypl.org is/was a PHP application.
 Recently, we've been trying to serve our images from [our IIF Image Server](https://github.com/NYPL/cantaloupe).
 
