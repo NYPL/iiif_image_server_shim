@@ -1,5 +1,3 @@
-ENV IIF_SERVER_URL;
-
 var typeToDimensionMapping = {
   "v": "2560",
   "q": "1600",
