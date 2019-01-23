@@ -8,11 +8,7 @@ var typeToDimensionMapping = {
 }
 
 function mapImageServerToIIIF(request, response) {
-  // TODO: b,d,x types
-  // TODO: Account for output filetype
-  // TODO: Case insensitivity of "t" param key.
-  // TODO: Look into case sensitivity of 'type' value
-  // TODO: Support 'download' parameter
+
   // turn query string to hash
   var arrayOfKeyValues = request.variables['query_string'].split('&');
   var paramsHash = {};
