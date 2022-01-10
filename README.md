@@ -1,7 +1,5 @@
 # IIIF Image Server Shim
 
-**THIS IS SOMEWHERE BETWEEN A PROOF-OF-CONCEPT AND A WORK IN PROGRESS.**
-
 images.nypl.org is/was a PHP application.
 Recently, we've been trying to serve our images from [our IIF Image Server](https://github.com/NYPL/cantaloupe).
 
@@ -13,23 +11,17 @@ to images.nypl.org (tut-tut). **This app is a shim that is (hopefully) API compl
 images.nypl.org, but ultimately turns it into the appropriate IIIF request, and proxies
 the IIIF image server's response.**
 
-## Design
-
-_TODO:...._
-
 ## Building & Running Locally
 
 ### Building
 
 1.  `docker-compose build`
-_fin_
 
 ### Running
 
 1.  `docker-compose up`
 2.  Go to `http://localhost:8000/images.php?....`
-_fin_
 
 ## Git Workflow & Deployment
 
-_TODO:...._
+This project is meant only for local development and points to our dev iiif instance. In order to deploy work tested here, please copy it into the [IIIF Image Server](https://github.com/NYPL/cantaloupe) under `./nginx-configs`. Upon deployment of the IIIF server, changes to the configs will be picked up by symlinks from the server. 
