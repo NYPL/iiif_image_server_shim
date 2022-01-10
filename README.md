@@ -20,7 +20,7 @@ the IIIF image server's response.**
 ### Running
 
 1.  `docker-compose up`
-2.  Go to `http://localhost:8000/images.php?....`
+2.  Go to `http://localhost:8000/index.php?....`
 
 ## Git Workflow & Deployment
 
